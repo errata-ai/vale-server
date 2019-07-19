@@ -59,8 +59,7 @@
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Formats &amp; Scoping</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="overview"></a><a href="#overview" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
 <p>Vale Server is &quot;syntax aware,&quot; which means that it's capable of both applying
 rules to and ignoring certain sections of text. This functionality is
-implemented through a <em>scoping</em> system. A scope (i.e., a particular section of
-text) is specified through a <em>selector</em> such as <code>paragraph.rst</code>, which
+implemented through a <em>scoping</em> system. A scope is specified through a <em>selector</em> such as <code>paragraph.rst</code>, which
 indicates that the rule applies to all paragraphs in reStructuredText files.
 Here are a few examples:</p>
 <ul>
@@ -135,7 +134,7 @@ add-on</a>.</p>
 <p>When working with non-HTML markup, you'll probably find that there are certain
 non-standard sections of text you'd like to ignore. Vale supports doing this at
 both the block and inline levels.</p>
-<p>To ignore entire blocks of text—e.g.,
+<p>To ignore entire blocks of text—for example,
 <a href="https://gohugo.io/content-management/shortcodes/">Hugo's shortcodes</a>—you'll want to define <code>BlockIgnores</code>. For
 example, consider the following shortcode-like <code>file</code> snippet:</p>
 <pre><code class="hljs css language-text">{< file "hello.go" go >}

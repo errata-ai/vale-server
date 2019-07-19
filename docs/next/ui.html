@@ -66,7 +66,7 @@ application and a web-based dashboard.</p>
 <p><img src="/vale-server/docs/assets/ui/macOS/prefs-general.png" alt="Preferences (General)"></p>
 <ul>
 <li><p><strong>Notify me about style updates</strong>: If checked, you'll receive a desktop notification (on application start) if there are any available updates to your styles.</p></li>
-<li><p><strong>Compatibility Mode</strong>: If checked, clients (e.g., VS Code and Atom) will check documents according to their local Vale configuration files whenever possible.</p></li>
+<li><p><strong>Compatibility Mode</strong>: If checked, clients (for example, VS Code and Atom) will check documents according to their local Vale configuration files whenever possible.</p></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="projects"></a><a href="#projects" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Projects</h3>
 <p>Projects allow you to manage multiple <a href="ini">Vale configuration files</a>
@@ -79,13 +79,13 @@ to give it a name:</p>
 <p>You can now edit the configuration file on the right to customize the new
 project. To remove a project, click its name and then click the &quot;Remove&quot;
 button.</p>
-<p>After you've created and configured your projects, you can quickly switch
+<p>After you've created and configured your projects, you can switch
 between them by choosing <strong>Select Project</strong> from the menu bar:</p>
 <p><img src="assets/ui/macOS/select-project.png" class="small"></p>
 <p>Additionally, each project has an associated <em>Vocabulary</em> that you can manage
 via the <a href="#dashboard">Dashboard</a>.</p>
 <h3><a class="anchor" aria-hidden="true" id="styles"></a><a href="#styles" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Styles</h3>
-<p>The Styles page provides quick access to all of your installed styles. You can
+<p>The Styles page provides quick access to all your installed styles. You can
 add your own styles by choosing <strong>Browse Styles...</strong> from the menu bar and then
 copying the relevant files.</p>
 <p><img src="/vale-server/docs/assets/ui/macOS/prefs-styles.png" alt="Preferences (Styles)"></p>
@@ -98,7 +98,7 @@ effect.</p>
 <p>The dashboard provides a web-based interface for managing your Vale-related
 assets.</p>
 <p><img src="/vale-server/docs/assets/ui/dash.png" alt="A screenshot of the Vale Server Dashboard"></p>
-<p>To open your dashboard, click thie <strong>Open Dashboard...</strong> option from the context
+<p>To open your dashboard, click the <strong>Open Dashboard...</strong> option from the context
 menu.</p>
 <h3><a class="anchor" aria-hidden="true" id="vocabularies"></a><a href="#vocabularies" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Vocabularies</h3>
 <p>Each of your <a href="#projects">Projects</a> has an associated <em>Vocabulary</em> that allows
@@ -107,10 +107,10 @@ you to add your own terms and phrases to any installed <a href="#styles">style</
 <ul>
 <li><p><code>Preferred</code>: Entries marked as <code>Preferred</code> will be enforced on as-entered
 basis—for example, if the term &quot;JavaScript&quot; is marked as Preferred, any
-variation that doesn't exactly match (e.g., <code>Javascript</code>, <code>javascript</code>, etc.) will
+variation that doesn't exactly match (for example, <code>Javascript</code>, <code>javascript</code>, etc.) will
 raise an error. Additionally, any Preferred entries will automatically be
 added as exceptions to <code>spelling</code>, <code>capitalization</code>, and <code>conditional</code> rules
-in all of your active styles.</p>
+in all your active styles.</p>
 <p><img src="/vale-server/docs/assets/ui/dash-entry.png" alt="A screenshot of a dashboard entry being created."></p></li>
 <li><p><code>Do not use</code>: Any use of an entry marked as <code>Do not use</code> will raise an error.</p></li>
 </ul>
