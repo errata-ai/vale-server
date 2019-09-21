@@ -1,0 +1,258 @@
+components:
+  parameters:
+    alert:
+      description: 'A `/vale`-generated Alert.
+
+
+        **NOTE**: `/vale` returns an *array* of Alerts, but `/suggest` expects a *single*
+        Alert.
+
+
+        **TIP**: Since the results of `/suggest` are deterministic, your application
+        can employ a cache to improve user interaction time.'
+      in: formData
+      name: alert
+      schema:
+        $ref: '#/components/schemas/Alert'
+    format:
+      description: 'The would-be file extension of `text`. In other words, since `text`
+        is passed as a buffer (and not a file path), `format` informs Vale Server
+        of how it should parse the provided content.
+
+
+        This value should include any leading "." characters, as is common practice
+        with extension-extraction utilities such as [`path.extname(path)`](https://nodejs.org/api/path.html#path_path_extname_path)
+        for Node.js:
+
+
+        ```
+
+        path.extname(''index.coffee.md'');
+
+        // Returns: ''.md''
+
+        //
+
+        // This is the expected value for `format`.
+
+        ```'
+      in: formData
+      name: format
+      schema:
+        type: string
+    text:
+      description: 'The plain-text content to be linted against one of the user''s
+        [Vale configurations](https://errata-ai.github.io/vale-server/docs/ui#projects).
+
+
+        The content can formatted as any of Vale Server''s [supported formats](https://errata-ai.github.io/vale-server/docs/format#formats):
+        Markdown, HTML, AsciiDoc, reStructuredText, XML, or source code.'
+      in: formData
+      name: text
+      schema:
+        type: string
+  schemas:
+    Action:
+      properties:
+        Name:
+          type: string
+        Params:
+          items:
+            type: string
+          type: array
+      required:
+      - Name
+      - Params
+      type: object
+    Alert:
+      properties:
+        Action:
+          $ref: '#/components/schemas/Action'
+        Check:
+          type: string
+        Description:
+          type: string
+        Line:
+          type: integer
+        Link:
+          type: string
+        Match:
+          type: string
+        Message:
+          type: string
+        Severity:
+          type: string
+        Span:
+          items:
+            type: string
+          type: array
+      required:
+      - Action
+      - Check
+      - Description
+      - Line
+      - Link
+      - Message
+      - Severity
+      - Span
+      - Match
+      type: object
+    Alerts:
+      items:
+        $ref: '#/components/schemas/Alert'
+      type: array
+    Suggestions:
+      items:
+        type: string
+      type: array
+externalDocs:
+  description: Vale Server user documentation
+  url: https://errata-ai.github.io/vale-server/docs/about.html
+info:
+  contact:
+    email: support@errata.ai
+  description: 'The Vale Server API provides a means of communicating with the Vale
+    Server desktop application, which manages user settings and interfaces with the
+    Vale CLI tool, from third-party "client" applications:
+
+
+    <img src="/vale-server/img/flow.svg" alt="An illustration of Vale Server''s API
+    flow." style="margin: auto; min-width: 50%; display: block;">
+
+
+    All of the official Vale Server clients&mdash;[Atom][1], [Sublime Text][2], [Visual
+    Studio Code][3], [Google Docs][5], and [Google Chrome][4]&mdash;use this API to
+    communicate with the core desktop application.
+
+
+    **NOTE**: Unlike most production APIs, the Vale Server API is embedded within
+    the desktop application itself and runs on `localhost`. This means that users
+    don''t have to send their text to a remote server, but it also means that **you''ll
+    have to have an instance of Vale Server running to test the API here**.
+
+
+
+    [1]: https://github.com/errata-ai/vale-atom
+
+    [2]: https://github.com/errata-ai/SubVale
+
+    [3]: https://github.com/errata-ai/vale-vscode
+
+    [4]: https://errata-ai.github.io/vale-server/docs/chrome
+
+    [5]: https://errata-ai.github.io/vale-server/docs/gdocs'
+  title: Vale Server API
+  version: 1.0.0
+openapi: 3.0.2
+paths:
+  /path:
+    get:
+      description: 'The `/path` endpoint returns the user''s active [`StylesPath`](https://errata-ai.github.io/vale-server/docs/style).
+
+
+        This is useful for implementing the ability to browse and edit rules within
+        your application&mdash;for example, the "View Rule" functionality in the Atom,
+        Visual Studio Code, and Sublime Text clients.'
+      operationId: GetPath
+      produces:
+      - application/json
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                properties:
+                  path:
+                    type: string
+                required:
+                - path
+                type: object
+          description: An array of suggestions
+      summary: Get the user's StylesPath
+      tags:
+      - Local Resources
+  /suggest:
+    post:
+      description: 'The `/suggest` endpoint accepts a `/vale`-generated Alert and
+        returns an array of possible fixes for the error, warning, or suggestion.
+        The array will be empty if no fixes are found.
+
+
+        Also, while the response of `/vale` depends on the user''s configuration,
+        the response of `/suggest` is deterministic: the same suggestions will *always*
+        be returned for a particular Alert.'
+      operationId: FindSuggestions
+      parameters:
+      - $ref: '#/components/parameters/alert'
+      produces:
+      - application/json
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Suggestions'
+          description: An array of suggestions
+        400:
+          content:
+            application/json:
+              schema:
+                properties:
+                  error:
+                    enum:
+                    - missing 'alert'
+                    type: string
+                required:
+                - error
+                type: object
+          description: Missing parameter
+      summary: Retrieve suggestions to fix a given Alert
+      tags:
+      - Linting and Suggestions
+  /vale:
+    post:
+      description: 'The `/vale` endpoint accepts a string with an assigned format
+        and returns an array of alerts (errors, warnings, or suggestions) about the
+        provided content.
+
+
+        Alerts are generated according to [user-defined rules and configurations](https://errata-ai.github.io/vale-server/docs/ini),
+        so the same `text` value can generate many different responses depending on
+        how the [active project](https://errata-ai.github.io/vale-server/docs/ui#projects)
+        is configured.'
+      operationId: LintText
+      parameters:
+      - $ref: '#/components/parameters/text'
+      - $ref: '#/components/parameters/format'
+      produces:
+      - application/json
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Alerts'
+          description: An array of alerts
+        400:
+          content:
+            application/json:
+              schema:
+                properties:
+                  error:
+                    enum:
+                    - missing 'text' or 'format'
+                    type: string
+                required:
+                - error
+                type: object
+          description: Missing parameters
+      summary: Lint the given text according to its given format.
+      tags:
+      - Linting and Suggestions
+servers:
+- url: http://127.0.0.1:7777
+tags:
+- description: Find errors and receive possible solutions
+  name: Linting and Suggestions
+- description: Get information about the active project and local Vale resources
+  name: Local Resources
