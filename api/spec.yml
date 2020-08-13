@@ -109,7 +109,7 @@ info:
   description: |-
     The Vale Server API provides a means of communicating with the Vale Server desktop application, which manages user settings and interfaces with the Vale CLI tool, from third-party "client" applications:
 
-    <img src="/vale-server/img/flow.svg" alt="An illustration of Vale Server's API flow." style="margin: auto; min-width: 50%; display: block;">
+    <img src="/img/flow.svg" alt="An illustration of Vale Server's API flow." style="margin: auto; min-width: 50%; display: block;">
 
     All of the official Vale Server clients&mdash;[Atom][1], [Sublime Text][2], [Visual Studio Code][3], [Google Docs][5], and [Google Chrome][4]&mdash;use this API to communicate with the core desktop application.
 
@@ -121,6 +121,40 @@ info:
     [4]: https://errata-ai.github.io/vale-server/docs/chrome
     [5]: https://errata-ai.github.io/vale-server/docs/gdocs
 paths:
+  /suggest:
+    post:
+      summary: Retrieve suggestions to fix a given Alert
+      parameters:
+      - $ref: '#/components/parameters/alert'
+      tags:
+      - Linting and Suggestions
+      produces:
+      - application/json
+      responses:
+        200:
+          description: An array of suggestions
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Suggestions'
+        400:
+          description: Missing parameter
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                - error
+                properties:
+                  error:
+                    type: string
+                    enum:
+                    - missing 'alert'
+      operationId: FindSuggestions
+      description: |-
+        The `/suggest` endpoint accepts a `/vale`-generated Alert and returns an array of possible fixes for the error, warning, or suggestion. The array will be empty if no fixes are found.
+
+        Also, while the response of `/vale` depends on the user's configuration, the response of `/suggest` is deterministic: the same suggestions will *always* be returned for a particular Alert.
   /vale:
     post:
       summary: Lint the given text according to its given format.
@@ -180,37 +214,3 @@ paths:
         The `/path` endpoint returns the user's active [`StylesPath`](https://errata-ai.github.io/vale-server/docs/style).
 
         This is useful for implementing the ability to browse and edit rules within your application&mdash;for example, the "View Rule" functionality in the Atom, Visual Studio Code, and Sublime Text clients.
-  /suggest:
-    post:
-      summary: Retrieve suggestions to fix a given Alert
-      parameters:
-      - $ref: '#/components/parameters/alert'
-      tags:
-      - Linting and Suggestions
-      produces:
-      - application/json
-      responses:
-        200:
-          description: An array of suggestions
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Suggestions'
-        400:
-          description: Missing parameter
-          content:
-            application/json:
-              schema:
-                type: object
-                required:
-                - error
-                properties:
-                  error:
-                    type: string
-                    enum:
-                    - missing 'alert'
-      operationId: FindSuggestions
-      description: |-
-        The `/suggest` endpoint accepts a `/vale`-generated Alert and returns an array of possible fixes for the error, warning, or suggestion. The array will be empty if no fixes are found.
-
-        Also, while the response of `/vale` depends on the user's configuration, the response of `/suggest` is deterministic: the same suggestions will *always* be returned for a particular Alert.
