@@ -33,6 +33,9 @@
         "title": "Installation",
         "sidebar_label": "Installation"
       },
+      "nonen": {
+        "title": "Non-English Text"
+      },
       "st3": {
         "title": "Sublime Text"
       },

@@ -108,7 +108,7 @@ TokenIgnores = (\$+[^\n$]+\$+)
 sections of text that don't have an associated HTML tag that could be used with
 `IgnoredScopes`. See [Non-Standard Markup](formats) for more information.
 
-## In-text Configuration
+## In-Text Configuration
 
 In addition to you Project-specific configuration files, you can also
 selectively enable or disable Vale Server from within your Markdown, HTML, or
