@@ -137,6 +137,21 @@
       },
       "version-1.6.0/version-1.5.0-sync": {
         "title": "Syncing"
+      },
+      "version-1.7.0/version-1.7.0-ui": {
+        "title": "User Interface"
+      },
+      "version-1.7.0/version-1.7.0-ini": {
+        "title": "Configuration"
+      },
+      "version-1.7.0/version-1.7.0-nonen": {
+        "title": "Non-English Text"
+      },
+      "version-1.7.0/version-1.7.0-style": {
+        "title": "Styles 101"
+      },
+      "version-1.7.0/version-1.7.0-vocab": {
+        "title": "Vocab"
       }
     },
     "links": {

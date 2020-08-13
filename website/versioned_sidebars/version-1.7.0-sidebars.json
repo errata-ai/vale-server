@@ -1,0 +1,32 @@
+{
+  "version-1.7.0-docs": {
+    "Tutorial": [
+      "version-1.7.0-install",
+      "version-1.7.0-ui",
+      "version-1.7.0-usage"
+    ],
+    "Guides": [
+      "version-1.7.0-about",
+      "version-1.7.0-style",
+      "version-1.7.0-vocab",
+      "version-1.7.0-format",
+      "version-1.7.0-ini",
+      "version-1.7.0-sync",
+      "version-1.7.0-addons",
+      "version-1.7.0-nonen"
+    ],
+    "Clients": [
+      "version-1.7.0-atom",
+      "version-1.7.0-chrome",
+      "version-1.7.0-gdocs",
+      "version-1.7.0-st3",
+      "version-1.7.0-vscode"
+    ]
+  },
+  "version-1.7.0-docs-other": {
+    "First Category": [
+      "version-1.7.0-doc4",
+      "version-1.7.0-doc5"
+    ]
+  }
+}
