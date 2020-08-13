@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale/cli",
+  "id": "vale/cli",
+  "isDocsHomePage": false,
+  "title": "Usage",
+  "description": "In order to familiarize ourselves with the typical Vale workflow, we'll be",
+  "source": "@site/docs/vale/cli.mdx",
+  "permalink": "/vale/cli",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale/cli.mdx",
+  "sidebar": "vale",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/vale/install"
+  },
+  "next": {
+    "title": "Styles",
+    "permalink": "/vale/styles"
+  }
+}

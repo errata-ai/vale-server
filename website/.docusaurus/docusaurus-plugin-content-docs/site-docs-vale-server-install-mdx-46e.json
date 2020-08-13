@@ -1,0 +1,15 @@
+{
+  "unversionedId": "vale-server/install",
+  "id": "vale-server/install",
+  "isDocsHomePage": false,
+  "title": "Getting Started",
+  "description": "Vale Server is a cross-platform (Windows and macOS) desktop application that",
+  "source": "@site/docs/vale-server/install.mdx",
+  "permalink": "/vale-server/install",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/install.mdx",
+  "sidebar": "vale-server",
+  "next": {
+    "title": "User Interface",
+    "permalink": "/vale-server/gui"
+  }
+}

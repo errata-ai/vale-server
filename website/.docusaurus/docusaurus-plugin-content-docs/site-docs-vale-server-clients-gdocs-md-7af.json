@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/clients/gdocs",
+  "id": "vale-server/clients/gdocs",
+  "isDocsHomePage": false,
+  "title": "Google Docs",
+  "description": "Installation",
+  "source": "@site/docs/vale-server/clients/gdocs.md",
+  "permalink": "/vale-server/clients/gdocs",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/clients/gdocs.md",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Google Chrome",
+    "permalink": "/vale-server/clients/chrome"
+  },
+  "next": {
+    "title": "Sublime Text",
+    "permalink": "/vale-server/clients/sublime"
+  }
+}

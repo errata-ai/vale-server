@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/clients/sublime",
+  "id": "vale-server/clients/sublime",
+  "isDocsHomePage": false,
+  "title": "Sublime Text",
+  "description": "The Vale Server client for Sublime Text 3 is open source. Please consult our known issues if you run into any problems.",
+  "source": "@site/docs/vale-server/clients/sublime.md",
+  "permalink": "/vale-server/clients/sublime",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/clients/sublime.md",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Google Docs",
+    "permalink": "/vale-server/clients/gdocs"
+  },
+  "next": {
+    "title": "Visual Studio Code",
+    "permalink": "/vale-server/clients/vscode"
+  }
+}

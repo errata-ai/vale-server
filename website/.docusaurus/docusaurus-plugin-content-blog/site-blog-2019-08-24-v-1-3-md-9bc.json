@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/vale-server.1.3",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/blog/blog/2019-08-24-v1.3.md",
+  "source": "@site/blog/2019-08-24-v1.3.md",
+  "description": "A demo of Vale Server’s VS Code extension",
+  "date": "2019-08-24T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "vale-server",
+      "permalink": "/blog/tags/vale-server"
+    },
+    {
+      "label": "announcements",
+      "permalink": "/blog/tags/announcements"
+    }
+  ],
+  "title": "Vale Server v1.3",
+  "readingTime": 1.46,
+  "truncated": false,
+  "prevItem": {
+    "title": "Vale Server v1.4",
+    "permalink": "/blog/vale-server.1.4"
+  },
+  "nextItem": {
+    "title": "Introducing Vale Server",
+    "permalink": "/blog/vale-server"
+  }
+}

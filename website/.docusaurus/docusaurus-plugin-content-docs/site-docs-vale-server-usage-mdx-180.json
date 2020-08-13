@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/usage",
+  "id": "vale-server/usage",
+  "isDocsHomePage": false,
+  "title": "Usage",
+  "description": "This page provides a step-by-step guide to getting up and running with Vale Server.",
+  "source": "@site/docs/vale-server/usage.mdx",
+  "permalink": "/vale-server/usage",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/usage.mdx",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "User Interface",
+    "permalink": "/vale-server/gui"
+  },
+  "next": {
+    "title": "Styles",
+    "permalink": "/vale-server/concepts/styles"
+  }
+}

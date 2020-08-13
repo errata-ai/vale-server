@@ -1,0 +1,15 @@
+{
+  "unversionedId": "vale-server/add-ons/lt",
+  "id": "vale-server/add-ons/lt",
+  "isDocsHomePage": false,
+  "title": "LanguageTool",
+  "description": "LanguageTool is an open-source grammar checker that has a library of over 3,000 English rules.",
+  "source": "@site/docs/vale-server/add-ons/lt.md",
+  "permalink": "/vale-server/add-ons/lt",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/add-ons/lt.md",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Visual Studio Code",
+    "permalink": "/vale-server/clients/vscode"
+  }
+}

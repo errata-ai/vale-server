@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale/vocab",
+  "id": "vale/vocab",
+  "isDocsHomePage": false,
+  "title": "Vocab",
+  "description": "Vocab directories were introduced in Vale v2.3.0 to solve a common style",
+  "source": "@site/docs/vale/vocab.mdx",
+  "permalink": "/vale/vocab",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale/vocab.mdx",
+  "sidebar": "vale",
+  "previous": {
+    "title": "Styles",
+    "permalink": "/vale/styles"
+  },
+  "next": {
+    "title": "Scoping",
+    "permalink": "/vale/scoping"
+  }
+}

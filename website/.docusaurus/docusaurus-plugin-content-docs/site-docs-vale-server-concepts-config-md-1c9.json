@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/concepts/config",
+  "id": "vale-server/concepts/config",
+  "isDocsHomePage": false,
+  "title": "Configuration",
+  "description": "The .vale.ini file is where you'll control the majority of Vale's behavior, including what files to lint and how to lint them.",
+  "source": "@site/docs/vale-server/concepts/config.md",
+  "permalink": "/vale-server/concepts/config",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/concepts/config.md",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Scoping",
+    "permalink": "/vale-server/concepts/scoping"
+  },
+  "next": {
+    "title": "Syncing",
+    "permalink": "/vale-server/concepts/syncing"
+  }
+}

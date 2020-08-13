@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/concepts/scoping",
+  "id": "vale-server/concepts/scoping",
+  "isDocsHomePage": false,
+  "title": "Scoping",
+  "description": "Vale Server is \"syntax aware,\" which means that it's capable of both applying",
+  "source": "@site/docs/vale-server/concepts/scoping.mdx",
+  "permalink": "/vale-server/concepts/scoping",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/concepts/scoping.mdx",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Styles",
+    "permalink": "/vale-server/concepts/styles"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/vale-server/concepts/config"
+  }
+}

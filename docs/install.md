@@ -2,6 +2,7 @@
 id: install
 title: Installation
 sidebar_label: Installation
+original_id: install
 ---
 
 Vale Server is a commercial desktop application available on macOS and Windows.

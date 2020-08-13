@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points",
+  "id": "common/points",
+  "isDocsHomePage": false,
+  "title": "points",
+  "description": "existence",
+  "source": "@site/docs/common/points.mdx",
+  "permalink": "/common/points",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points.mdx"
+}

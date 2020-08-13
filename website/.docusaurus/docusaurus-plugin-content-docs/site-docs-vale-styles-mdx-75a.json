@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale/styles",
+  "id": "vale/styles",
+  "isDocsHomePage": false,
+  "title": "Styles",
+  "description": "Vale has a powerful extension system that doesn't require knowledge of",
+  "source": "@site/docs/vale/styles.mdx",
+  "permalink": "/vale/styles",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale/styles.mdx",
+  "sidebar": "vale",
+  "previous": {
+    "title": "Usage",
+    "permalink": "/vale/cli"
+  },
+  "next": {
+    "title": "Vocab",
+    "permalink": "/vale/vocab"
+  }
+}

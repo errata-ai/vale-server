@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/clients/atom",
+  "id": "vale-server/clients/atom",
+  "isDocsHomePage": false,
+  "title": "Atom",
+  "description": "The Vale Server client for Atom is open source. Please consult our known issues if you run into any problems.",
+  "source": "@site/docs/vale-server/clients/atom.md",
+  "permalink": "/vale-server/clients/atom",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/clients/atom.md",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Syncing",
+    "permalink": "/vale-server/concepts/syncing"
+  },
+  "next": {
+    "title": "Google Chrome",
+    "permalink": "/vale-server/clients/chrome"
+  }
+}

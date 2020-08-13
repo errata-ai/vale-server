@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale/scoping",
+  "id": "vale/scoping",
+  "isDocsHomePage": false,
+  "title": "Scoping",
+  "description": "Vale is \"syntax aware,\" which means that it's capable of both applying",
+  "source": "@site/docs/vale/scoping.mdx",
+  "permalink": "/vale/scoping",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale/scoping.mdx",
+  "sidebar": "vale",
+  "previous": {
+    "title": "Vocab",
+    "permalink": "/vale/vocab"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/vale/config"
+  }
+}

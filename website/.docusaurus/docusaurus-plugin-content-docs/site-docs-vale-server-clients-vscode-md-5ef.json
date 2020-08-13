@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/clients/vscode",
+  "id": "vale-server/clients/vscode",
+  "isDocsHomePage": false,
+  "title": "Visual Studio Code",
+  "description": "The Vale Server client for Visual Studio Code is open source. Please consult our known issues if you run into any problems.",
+  "source": "@site/docs/vale-server/clients/vscode.md",
+  "permalink": "/vale-server/clients/vscode",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/clients/vscode.md",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Sublime Text",
+    "permalink": "/vale-server/clients/sublime"
+  },
+  "next": {
+    "title": "LanguageTool",
+    "permalink": "/vale-server/add-ons/lt"
+  }
+}

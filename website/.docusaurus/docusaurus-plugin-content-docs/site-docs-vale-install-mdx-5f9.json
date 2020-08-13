@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale/install",
+  "id": "vale/install",
+  "isDocsHomePage": false,
+  "title": "Installation",
+  "description": "Vale offers multiple options for installation, each of which best suits a particular use case. The",
+  "source": "@site/docs/vale/install.mdx",
+  "permalink": "/vale/install",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale/install.mdx",
+  "sidebar": "vale",
+  "previous": {
+    "title": "About",
+    "permalink": "/vale/about"
+  },
+  "next": {
+    "title": "Usage",
+    "permalink": "/vale/cli"
+  }
+}

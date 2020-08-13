@@ -1,0 +1,10 @@
+{
+  "unversionedId": "vale-server/integrations/gh-action",
+  "id": "vale-server/integrations/gh-action",
+  "isDocsHomePage": false,
+  "title": "GitHub Actions",
+  "description": "The Vale Server GitHub Action is open source. Please consult our known issues if you run into any problems.",
+  "source": "@site/docs/vale-server/integrations/gh-action.md",
+  "permalink": "/vale-server/integrations/gh-action",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/integrations/gh-action.md"
+}

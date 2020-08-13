@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/concepts/styles",
+  "id": "vale-server/concepts/styles",
+  "isDocsHomePage": false,
+  "title": "Styles",
+  "description": "Vale Server has a powerful extension system that doesn't require knowledge of",
+  "source": "@site/docs/vale-server/concepts/styles.mdx",
+  "permalink": "/vale-server/concepts/styles",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/concepts/styles.mdx",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Usage",
+    "permalink": "/vale-server/usage"
+  },
+  "next": {
+    "title": "Scoping",
+    "permalink": "/vale-server/concepts/scoping"
+  }
+}

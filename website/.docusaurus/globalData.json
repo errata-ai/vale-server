@@ -1,0 +1,109 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "latestVersionName": null,
+      "versions": [
+        {
+          "name": null,
+          "path": "/",
+          "mainDocId": "common/points",
+          "docs": [
+            {
+              "id": "common/points",
+              "path": "/common/points"
+            },
+            {
+              "id": "vale-server/add-ons/lt",
+              "path": "/vale-server/add-ons/lt"
+            },
+            {
+              "id": "vale-server/clients/atom",
+              "path": "/vale-server/clients/atom"
+            },
+            {
+              "id": "vale-server/clients/chrome",
+              "path": "/vale-server/clients/chrome"
+            },
+            {
+              "id": "vale-server/clients/gdocs",
+              "path": "/vale-server/clients/gdocs"
+            },
+            {
+              "id": "vale-server/clients/sublime",
+              "path": "/vale-server/clients/sublime"
+            },
+            {
+              "id": "vale-server/clients/vscode",
+              "path": "/vale-server/clients/vscode"
+            },
+            {
+              "id": "vale-server/concepts/config",
+              "path": "/vale-server/concepts/config"
+            },
+            {
+              "id": "vale-server/concepts/scoping",
+              "path": "/vale-server/concepts/scoping"
+            },
+            {
+              "id": "vale-server/concepts/styles",
+              "path": "/vale-server/concepts/styles"
+            },
+            {
+              "id": "vale-server/concepts/syncing",
+              "path": "/vale-server/concepts/syncing"
+            },
+            {
+              "id": "vale-server/concepts/vocab",
+              "path": "/vale-server/concepts/vocab"
+            },
+            {
+              "id": "vale-server/gui",
+              "path": "/vale-server/gui"
+            },
+            {
+              "id": "vale-server/install",
+              "path": "/vale-server/install"
+            },
+            {
+              "id": "vale-server/integrations/gh-action",
+              "path": "/vale-server/integrations/gh-action"
+            },
+            {
+              "id": "vale-server/usage",
+              "path": "/vale-server/usage"
+            },
+            {
+              "id": "vale/about",
+              "path": "/vale/about"
+            },
+            {
+              "id": "vale/cli",
+              "path": "/vale/cli"
+            },
+            {
+              "id": "vale/config",
+              "path": "/vale/config"
+            },
+            {
+              "id": "vale/install",
+              "path": "/vale/install"
+            },
+            {
+              "id": "vale/scoping",
+              "path": "/vale/scoping"
+            },
+            {
+              "id": "vale/styles",
+              "path": "/vale/styles"
+            },
+            {
+              "id": "vale/vocab",
+              "path": "/vale/vocab"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

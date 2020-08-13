@@ -80,7 +80,7 @@ menu.
 
 ### Vocabularies
 
-Each of your [Projects](#projects) has an associated *Vocabulary* that allows
+Each of your [Projects](#projects) has an associated [*Vocabulary*](vocab) that allows
 you to add your own terms and phrases to any installed [style](#styles).
 
 Vocabulary entries belong to one of two groups:

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/gui",
+  "id": "vale-server/gui",
+  "isDocsHomePage": false,
+  "title": "User Interface",
+  "description": "Vale Server's user interface (UI) consists of two parts: a native desktop application and a web-based dashboard.",
+  "source": "@site/docs/vale-server/gui.mdx",
+  "permalink": "/vale-server/gui",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/gui.mdx",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/vale-server/install"
+  },
+  "next": {
+    "title": "Usage",
+    "permalink": "/vale-server/usage"
+  }
+}

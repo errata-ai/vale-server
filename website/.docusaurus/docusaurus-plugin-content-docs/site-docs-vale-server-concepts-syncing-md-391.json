@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/concepts/syncing",
+  "id": "vale-server/concepts/syncing",
+  "isDocsHomePage": false,
+  "title": "Syncing",
+  "description": "Vale Server supports overriding the default StylesPath value on a",
+  "source": "@site/docs/vale-server/concepts/syncing.md",
+  "permalink": "/vale-server/concepts/syncing",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/concepts/syncing.md",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/vale-server/concepts/config"
+  },
+  "next": {
+    "title": "Atom",
+    "permalink": "/vale-server/clients/atom"
+  }
+}

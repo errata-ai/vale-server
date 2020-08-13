@@ -1,0 +1,15 @@
+{
+  "unversionedId": "vale/about",
+  "id": "vale/about",
+  "isDocsHomePage": false,
+  "title": "About",
+  "description": "Go Report Card GitHub All Releases Docker Pulls",
+  "source": "@site/docs/vale/about.mdx",
+  "permalink": "/vale/about",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale/about.mdx",
+  "sidebar": "vale",
+  "next": {
+    "title": "Installation",
+    "permalink": "/vale/install"
+  }
+}

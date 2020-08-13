@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/clients/chrome",
+  "id": "vale-server/clients/chrome",
+  "isDocsHomePage": false,
+  "title": "Google Chrome",
+  "description": "Installation",
+  "source": "@site/docs/vale-server/clients/chrome.md",
+  "permalink": "/vale-server/clients/chrome",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/clients/chrome.md",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Atom",
+    "permalink": "/vale-server/clients/atom"
+  },
+  "next": {
+    "title": "Google Docs",
+    "permalink": "/vale-server/clients/gdocs"
+  }
+}

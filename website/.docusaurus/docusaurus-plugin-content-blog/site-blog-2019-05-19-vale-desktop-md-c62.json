@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/vsintro",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/blog/blog/2019-05-19-vale-desktop.md",
+  "source": "@site/blog/2019-05-19-vale-desktop.md",
+  "description": "Introducing Vale Server, a native desktop app for Vale",
+  "date": "2019-05-19T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "vale-server",
+      "permalink": "/blog/tags/vale-server"
+    },
+    {
+      "label": "announcements",
+      "permalink": "/blog/tags/announcements"
+    }
+  ],
+  "title": "Vale Comes to the Desktop",
+  "readingTime": 3.445,
+  "truncated": false,
+  "prevItem": {
+    "title": "Introducing Vale Server",
+    "permalink": "/blog/vale-server"
+  }
+}

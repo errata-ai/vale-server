@@ -1,0 +1,15 @@
+{
+  "unversionedId": "vale/config",
+  "id": "vale/config",
+  "isDocsHomePage": false,
+  "title": "Configuration",
+  "description": "The .vale.ini file is where you'll control the majority of Vale's behavior,",
+  "source": "@site/docs/vale/config.mdx",
+  "permalink": "/vale/config",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale/config.mdx",
+  "sidebar": "vale",
+  "previous": {
+    "title": "Scoping",
+    "permalink": "/vale/scoping"
+  }
+}

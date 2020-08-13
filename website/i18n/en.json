@@ -40,13 +40,16 @@
         "title": "Styles 101"
       },
       "sync": {
-        "title": "Syncing & Collaboration"
+        "title": "Syncing"
       },
       "usage": {
         "title": "Usage"
       },
       "vale": {
         "title": "Command Line"
+      },
+      "vocab": {
+        "title": "Vocab"
       },
       "vscode": {
         "title": "Visual Studio Code"
@@ -120,6 +123,16 @@
         "title": "Styles 101"
       },
       "version-1.5.0/version-1.5.0-sync": {
+        "title": "Syncing"
+      },
+      "version-1.6.0/version-1.5.0-addons": {
+        "title": "Add-ons"
+      },
+      "version-1.6.0/version-1.6.0-install": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
+      },
+      "version-1.6.0/version-1.5.0-sync": {
         "title": "Syncing"
       }
     },

@@ -1,0 +1,10 @@
+{
+  "unversionedId": "vale-server/concepts/vocab",
+  "id": "vale-server/concepts/vocab",
+  "isDocsHomePage": false,
+  "title": "Vocabularies",
+  "description": "This is a link to another document. This is a link to an external page.",
+  "source": "@site/docs/vale-server/concepts/vocab.md",
+  "permalink": "/vale-server/concepts/vocab",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/concepts/vocab.md"
+}

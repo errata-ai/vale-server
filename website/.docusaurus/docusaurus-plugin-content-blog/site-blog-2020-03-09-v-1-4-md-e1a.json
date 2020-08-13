@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/vale-server.1.4",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/blog/blog/2020-03-09-v1.4.md",
+  "source": "@site/blog/2020-03-09-v1.4.md",
+  "description": "Vale Server’s new Studio page",
+  "date": "2020-03-09T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "vale-server",
+      "permalink": "/blog/tags/vale-server"
+    },
+    {
+      "label": "announcements",
+      "permalink": "/blog/tags/announcements"
+    }
+  ],
+  "title": "Vale Server v1.4",
+  "readingTime": 2.445,
+  "truncated": false,
+  "nextItem": {
+    "title": "Vale Server v1.3",
+    "permalink": "/blog/vale-server.1.3"
+  }
+}
