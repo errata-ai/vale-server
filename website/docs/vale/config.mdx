@@ -6,6 +6,8 @@ title: Configuration
 The `.vale.ini` file is where you'll control the majority of Vale's behavior,
 including what files to lint and how to lint them.
 
+Each ini file has global settings and settings that apply to specific file types.
+
 ```ini title=".vale.ini"
 # Example Vale config file (`.vale.ini` or `_vale.ini`)
 
@@ -25,7 +27,7 @@ MinAlertLevel = warning
 [formats]
 mdx = md
 
-# Global settings (applied to every syntax)
+# Global settings (applied to every file type)
 [*]
 # List of styles to load
 BasedOnStyles = write-good, Joblint
@@ -34,7 +36,7 @@ vale.Editorializing = YES
 # You can also change the level associated with a rule
 vale.Hedging = error
 
-# Syntax-specific settings
+# File type-specific settings
 # These overwrite any conflicting global settings
 [*.{md,txt}]
 vale.Editorializing = NO
@@ -157,7 +159,13 @@ SphinxAutoBuild = make html
 
 If this is defined, Vale will re-build your site prior to linting any content -- which makes it possible to use Sphinx and Vale in lint-on-the-fly environments \(e.g., text editors\) at the cost of performance.
 
-## Syntax-specific
+## File type-specific settings
+
+The configuration file must include at least one file type-specific section to indicate how Vale treats a certain type of file.
+Each of these sections starts with a file type expression in brackets, such as `[*]` to match all files or `[*.{md,txt}]` to match all files that end with `.md` or `.txt`.
+Without one of these sections, Vale does not read any files.
+
+At minimum, each file type-specific section must include the `basedOnStyles` setting to specify which styles apply to that file type.
 
 ### `BasedOnStyles`
 
