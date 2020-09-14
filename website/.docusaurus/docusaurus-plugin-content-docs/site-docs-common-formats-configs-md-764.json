@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/configs",
+  "id": "common/formats/configs",
+  "isDocsHomePage": false,
+  "title": "configs",
+  "description": "MDX",
+  "source": "@site/docs/common/formats/configs.md",
+  "permalink": "/common/formats/configs",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/configs.md"
+}

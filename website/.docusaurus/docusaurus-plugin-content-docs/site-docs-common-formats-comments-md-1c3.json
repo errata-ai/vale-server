@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/comments",
+  "id": "common/formats/comments",
+  "isDocsHomePage": false,
+  "title": "comments",
+  "description": "You can use selective, in-text configuration through markup comments in certain",
+  "source": "@site/docs/common/formats/comments.md",
+  "permalink": "/common/formats/comments",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/comments.md"
+}

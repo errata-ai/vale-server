@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points/conditional",
+  "id": "common/points/conditional",
+  "isDocsHomePage": false,
+  "title": "conditional",
+  "description": "Example definition",
+  "source": "@site/docs/common/points/conditional.md",
+  "permalink": "/common/points/conditional",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points/conditional.md"
+}

@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/text",
+  "id": "common/formats/text",
+  "isDocsHomePage": false,
+  "title": "text",
+  "description": "Any format not listed below is considered to be text and has no special scoping rules applied.",
+  "source": "@site/docs/common/formats/text.md",
+  "permalink": "/common/formats/text",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/text.md"
+}

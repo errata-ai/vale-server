@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/config",
+  "id": "common/config",
+  "isDocsHomePage": false,
+  "title": "Configuration",
+  "description": "The .vale.ini file is where you'll control the majority of Vale's behavior, including what files to lint and how to lint them.",
+  "source": "@site/docs/common/config.md",
+  "permalink": "/common/config",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/config.md"
+}

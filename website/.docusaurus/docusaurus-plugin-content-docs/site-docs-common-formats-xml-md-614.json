@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/xml",
+  "id": "common/formats/xml",
+  "isDocsHomePage": false,
+  "title": "xml",
+  "description": "XML is supported through the external program xsltproc.",
+  "source": "@site/docs/common/formats/xml.md",
+  "permalink": "/common/formats/xml",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/xml.md"
+}

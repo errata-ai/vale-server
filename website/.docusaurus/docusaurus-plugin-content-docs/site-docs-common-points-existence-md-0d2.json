@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points/existence",
+  "id": "common/points/existence",
+  "isDocsHomePage": false,
+  "title": "existence",
+  "description": "Example definition",
+  "source": "@site/docs/common/points/existence.md",
+  "permalink": "/common/points/existence",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points/existence.md"
+}

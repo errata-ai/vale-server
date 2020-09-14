@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/rst",
+  "id": "common/formats/rst",
+  "isDocsHomePage": false,
+  "title": "rst",
+  "description": "reStructuredText is supported through the external program",
+  "source": "@site/docs/common/formats/rst.md",
+  "permalink": "/common/formats/rst",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/rst.md"
+}

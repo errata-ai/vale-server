@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/html",
+  "id": "common/formats/html",
+  "isDocsHomePage": false,
+  "title": "html",
+  "description": "HTML5 support is built in. By default, script, style, pre, code,",
+  "source": "@site/docs/common/formats/html.md",
+  "permalink": "/common/formats/html",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/html.md"
+}

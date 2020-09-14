@@ -1,0 +1,19 @@
+{
+  "unversionedId": "vale-server/concepts/languages",
+  "id": "vale-server/concepts/languages",
+  "isDocsHomePage": false,
+  "title": "Languages",
+  "description": "Vale Server's extensibility and flexibility isn't just limited to creating",
+  "source": "@site/docs/vale-server/concepts/nonen.md",
+  "permalink": "/vale-server/concepts/languages",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/vale-server/concepts/nonen.md",
+  "sidebar": "vale-server",
+  "previous": {
+    "title": "Syncing",
+    "permalink": "/vale-server/concepts/syncing"
+  },
+  "next": {
+    "title": "Atom",
+    "permalink": "/vale-server/clients/atom"
+  }
+}

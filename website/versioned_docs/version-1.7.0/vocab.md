@@ -4,6 +4,10 @@ title: Vocab
 original_id: vocab
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/install.
+:::
+
 `Vocab` directories solve a common style
 inheritance problem. Consider, for example, the following scenario:
 
@@ -59,15 +63,6 @@ BasedOnStyles = Microsoft
 You can create and manage your vocabularies through the [dashboard](ui#dashbaord).
 
 ## Directory Structure
-
-:::important
-Earlier versions of Vale Server supported three categories of vocab
-terms: `accept.txt` (accept), `reject.txt` (reject), and `vocab.txt`
-(ignore).
-
-In the latest release, `accept.txt` and `vocab.txt` have been merged&mdash;to convert your `vocab.txt` file, simply copy its contents into `accept.txt`.
-:::
-
 
 `Vocab` entries are stored in `<StylesPath>/Vocab/<name>/` and are then
 referenced by `<name>` in `.vale.ini`. For example, consider the following

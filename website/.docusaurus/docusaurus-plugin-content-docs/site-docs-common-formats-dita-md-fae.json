@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/dita",
+  "id": "common/formats/dita",
+  "isDocsHomePage": false,
+  "title": "dita",
+  "description": "Due to the dependency on the third-party dita command,",
+  "source": "@site/docs/common/formats/dita.md",
+  "permalink": "/common/formats/dita",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/dita.md"
+}

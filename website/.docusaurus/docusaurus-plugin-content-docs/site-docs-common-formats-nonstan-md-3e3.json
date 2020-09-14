@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/nonstan",
+  "id": "common/formats/nonstan",
+  "isDocsHomePage": false,
+  "title": "nonstan",
+  "description": "When working with non-HTML markup, you'll probably find that there are certain",
+  "source": "@site/docs/common/formats/nonstan.md",
+  "permalink": "/common/formats/nonstan",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/nonstan.md"
+}

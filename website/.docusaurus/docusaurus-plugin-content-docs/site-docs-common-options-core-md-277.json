@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/options/core",
+  "id": "common/options/core",
+  "isDocsHomePage": false,
+  "title": "core",
+  "description": "Core settings appear at the top of the file and apply to the application itself rather than a specific file format.",
+  "source": "@site/docs/common/options/core.md",
+  "permalink": "/common/options/core",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/options/core.md"
+}

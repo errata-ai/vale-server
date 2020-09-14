@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points/spelling",
+  "id": "common/points/spelling",
+  "isDocsHomePage": false,
+  "title": "spelling",
+  "description": "Example definition",
+  "source": "@site/docs/common/points/spelling.md",
+  "permalink": "/common/points/spelling",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points/spelling.md"
+}

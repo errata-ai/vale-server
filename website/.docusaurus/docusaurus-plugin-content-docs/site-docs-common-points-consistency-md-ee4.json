@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points/consistency",
+  "id": "common/points/consistency",
+  "isDocsHomePage": false,
+  "title": "consistency",
+  "description": "Example definition",
+  "source": "@site/docs/common/points/consistency.md",
+  "permalink": "/common/points/consistency",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points/consistency.md"
+}

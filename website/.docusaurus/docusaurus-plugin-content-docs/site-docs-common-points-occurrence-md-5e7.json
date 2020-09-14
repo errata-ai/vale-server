@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points/occurrence",
+  "id": "common/points/occurrence",
+  "isDocsHomePage": false,
+  "title": "occurrence",
+  "description": "Example definition",
+  "source": "@site/docs/common/points/occurrence.md",
+  "permalink": "/common/points/occurrence",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points/occurrence.md"
+}

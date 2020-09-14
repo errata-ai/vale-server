@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/types/code",
+  "id": "common/types/code",
+  "isDocsHomePage": false,
+  "title": "code",
+  "description": "There are two code scopes: comment.line and comment.block.",
+  "source": "@site/docs/common/types/code.md",
+  "permalink": "/common/types/code",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/types/code.md"
+}

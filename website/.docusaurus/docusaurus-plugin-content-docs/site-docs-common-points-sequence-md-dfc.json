@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points/sequence",
+  "id": "common/points/sequence",
+  "isDocsHomePage": false,
+  "title": "sequence",
+  "description": "Example definition",
+  "source": "@site/docs/common/points/sequence.md",
+  "permalink": "/common/points/sequence",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points/sequence.md"
+}

@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points/repetition",
+  "id": "common/points/repetition",
+  "isDocsHomePage": false,
+  "title": "repetition",
+  "description": "Example definition",
+  "source": "@site/docs/common/points/repetition.md",
+  "permalink": "/common/points/repetition",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points/repetition.md"
+}

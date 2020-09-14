@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points/capitalization",
+  "id": "common/points/capitalization",
+  "isDocsHomePage": false,
+  "title": "capitalization",
+  "description": "Example definition",
+  "source": "@site/docs/common/points/capitalization.md",
+  "permalink": "/common/points/capitalization",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points/capitalization.md"
+}

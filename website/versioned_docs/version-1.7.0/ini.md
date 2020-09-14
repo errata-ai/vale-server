@@ -4,6 +4,10 @@ title: Configuration
 original_id: ini
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/concepts/config.
+:::
+
 ## Overview
 
 Vale Server's primary source of configuration is through [INI][p1] files. Each

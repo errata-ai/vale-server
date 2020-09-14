@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points/readability",
+  "id": "common/points/readability",
+  "isDocsHomePage": false,
+  "title": "readability",
+  "description": "Example definition",
+  "source": "@site/docs/common/points/readability.md",
+  "permalink": "/common/points/readability",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points/readability.md"
+}

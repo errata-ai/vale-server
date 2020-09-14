@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/code",
+  "id": "common/formats/code",
+  "isDocsHomePage": false,
+  "title": "code",
+  "description": "| Language | Extensions | Tokens \\(scope\\) |",
+  "source": "@site/docs/common/formats/code.md",
+  "permalink": "/common/formats/code",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/code.md"
+}

@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/markup",
+  "id": "common/formats/markup",
+  "isDocsHomePage": false,
+  "title": "markup",
+  "description": "| Scope | Description |",
+  "source": "@site/docs/common/formats/markup.md",
+  "permalink": "/common/formats/markup",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/markup.md"
+}

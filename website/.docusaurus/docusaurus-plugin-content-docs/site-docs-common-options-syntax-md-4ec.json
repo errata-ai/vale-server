@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/options/syntax",
+  "id": "common/options/syntax",
+  "isDocsHomePage": false,
+  "title": "syntax",
+  "description": "Format-specific sections apply their settings only to files that match their",
+  "source": "@site/docs/common/options/syntax.md",
+  "permalink": "/common/options/syntax",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/options/syntax.md"
+}

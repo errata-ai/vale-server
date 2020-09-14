@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/points/substitution",
+  "id": "common/points/substitution",
+  "isDocsHomePage": false,
+  "title": "substitution",
+  "description": "Example definition",
+  "source": "@site/docs/common/points/substitution.md",
+  "permalink": "/common/points/substitution",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/points/substitution.md"
+}

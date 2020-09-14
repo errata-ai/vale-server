@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/styles",
+  "id": "common/styles",
+  "isDocsHomePage": false,
+  "title": "Styles",
+  "description": "Vale has a powerful extension system that doesn't require knowledge of",
+  "source": "@site/docs/common/styles.mdx",
+  "permalink": "/common/styles",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/styles.mdx"
+}

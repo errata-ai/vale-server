@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/markdown",
+  "id": "common/formats/markdown",
+  "isDocsHomePage": false,
+  "title": "markdown",
+  "description": "GitHub-Flavored Markdown support is built in.",
+  "source": "@site/docs/common/formats/markdown.md",
+  "permalink": "/common/formats/markdown",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/markdown.md"
+}

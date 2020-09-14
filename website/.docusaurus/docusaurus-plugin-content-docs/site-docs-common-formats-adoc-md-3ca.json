@@ -1,0 +1,10 @@
+{
+  "unversionedId": "common/formats/adoc",
+  "id": "common/formats/adoc",
+  "isDocsHomePage": false,
+  "title": "adoc",
+  "description": "AsciiDoc is supported through the external program Asciidoctor.",
+  "source": "@site/docs/common/formats/adoc.md",
+  "permalink": "/common/formats/adoc",
+  "editUrl": "https://github.com/errata-ai/vale-server/edit/master/website/docs/common/formats/adoc.md"
+}

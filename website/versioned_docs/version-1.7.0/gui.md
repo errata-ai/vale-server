@@ -4,6 +4,10 @@ title: User Interface
 original_id: ui
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/gui.
+:::
+
 Vale Server's user interface (UI) consists of two parts: a native desktop
 application and a web-based dashboard.
 
