@@ -4,6 +4,10 @@ title: Add-ons
 original_id: addons
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/add-ons/languagetool.
+:::
+
 In addition to [styles](style), you can also extend Vale Server's capabilities through add-ons. And, while styles are limited to changing the way Vale Server's built-in features work, add-ons allow you to add completely new features.
 
 ## LanguageTool

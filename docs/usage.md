@@ -3,6 +3,10 @@ id: usage
 title: Usage
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/usage.
+:::
+
 This page provides a step-by-step guide to getting up and running with Vale Server.
 
 ## Step 1: Installing a style

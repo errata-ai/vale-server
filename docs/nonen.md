@@ -3,6 +3,10 @@ id: nonen
 title: Non-English Text
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/guides/languages.
+:::
+
 Vale Server's extensibility and flexibility isn't just limited to creating English rules&mdash;most of its features are largely language-agnostic, allowing for entire styles to be created in other
 languages.
 

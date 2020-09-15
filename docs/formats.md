@@ -3,6 +3,10 @@ id: format
 title: Formats & Scoping
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/concepts/scoping.
+:::
+
 ## Overview
 
 Vale Server is "syntax aware," which means that it's capable of both applying

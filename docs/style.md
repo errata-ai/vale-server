@@ -3,8 +3,8 @@ id: style
 title: Styles 101
 ---
 
-:::tip Have a style you'd like to see implemented?
-Let us know! We're actively looking to expand our library of [pre-made, open-source styles](https://github.com/errata-ai/styles/issues/new).
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/concepts/styles.
 :::
 
 ## Overview

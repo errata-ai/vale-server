@@ -4,6 +4,10 @@ title: Syncing
 original_id: sync
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/concepts/syncing.
+:::
+
 Vale Server supports overriding the default `StylesPath` value on a
 [per-project](ui#projects) basis.
 

@@ -3,6 +3,10 @@ id: gdocs
 title: Google Docs
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/clients/google-docs.
+:::
+
 ## Installation
 
 :::warning

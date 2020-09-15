@@ -5,6 +5,10 @@ sidebar_label: Installation
 original_id: install
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/install.
+:::
+
 Vale Server is a commercial desktop application available on macOS and Windows.
 
 See the Vale Server [homepage](https://errata.ai/vale-server/) to learn more.

@@ -3,6 +3,10 @@ id: chrome
 title: Google Chrome
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/clients/chrome.
+:::
+
 ## Installation
 
 Go to the [installation page](https://chrome.google.com/webstore/detail/vale-server/goinboihbomchileeihgfnbohjdhfcoi) and click the *Add to Chrome* button:

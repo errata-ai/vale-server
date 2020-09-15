@@ -3,6 +3,10 @@ id: vocab
 title: Vocab
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/install.
+:::
+
 `Vocab` directories solve a common style
 inheritance problem. Consider, for example, the following scenario:
 

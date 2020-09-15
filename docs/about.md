@@ -3,6 +3,10 @@ id: about
 title: Why Vale Server?
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/install.
+:::
+
 The field of "automated writing aids" is getting to be a crowded space: there's certainly no shortage of software claiming to offer "human-level" detection of spelling and grammar mistakes.
 
 Vale Server is different in both philosophy and implementation. The following sections outline exactly *how* its approach and features differ from its competitors.

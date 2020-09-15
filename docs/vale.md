@@ -3,6 +3,10 @@ id: vale
 title: "Command Line"
 ---
 
+:::note
+Our docs have an official new home at https://docs.errata.ai/vale-server/install.
+:::
+
 Vale Server is built on top of [Vale](https://github.com/errata-ai/vale), a powerful command-line interface. You can install and use Vale on its own by following the instructions at [its repository](https://github.com/errata-ai/vale#installation).
 
 See [The Vale Workflow](https://medium.com/@jdkato/the-vale-workflow-3b709fa39212) to learn more about the relationship between Vale and Vale Server.
